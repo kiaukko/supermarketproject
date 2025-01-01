@@ -1,0 +1,1 @@
+# build a database connection here to collect transactions from "product purchases"
