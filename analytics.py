@@ -1,1 +1,0 @@
-#do some analytics with products (recommendation system, accossiation rule mining, frequent itemset mining...?)

@@ -41,8 +41,8 @@ def main():
         print("Ingredient: " + ingredient)
         print("All Products:")
         for product in products_info["all_products"]:
-            print("  - Product ID: " + product["productId"])
-        print("Selected Product: " + products_info["selected_product"]["productId"] + "\n")
+            print("  - Product ID: " + product["productId"] + ", Description: " + product["description"])
+        print("Selected Product: " + products_info["selected_product"]["productId"] + ", Description: " + products_info["selected_product"]["description"] + "\n")
 
 if __name__ == "__main__":
     main()
