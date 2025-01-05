@@ -7,7 +7,7 @@ from products import fetch_products
 from auth_handler import get_access_token
 
 def main():
-    # Configurations
+    # Configurations for authentication
     load_dotenv()
     client_id = os.getenv("CLIENT_ID")
     client_secret = os.getenv("CLIENT_SECRET")
@@ -20,7 +20,7 @@ def main():
     location_id = get_location_id(access_token)
     print("Location ID: " + location_id)
 
-    #Receipt and ingredients
+    #Recipe and ingredients
     ingredients = fetch_random_recipe()
     print("Ingredients: " + ", ".join(ingredients))
 
